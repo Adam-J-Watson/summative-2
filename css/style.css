@@ -1,5 +1,6 @@
 body {
     background-color: #ff8a54;
+    margin: 0 auto;
 }
 
 @font-face {
@@ -26,21 +27,28 @@ body {
     font-style: normal;
 }
 
-h1,
-h2 {
+h1 {
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
     font-family: 'cooper_lt_btlight';
+    padding-left: 1.5vw;
+}
+
+h2 {
+    font-size: 90px;
+    color: #ffde73;
+    font-weight: 100;
+    font-family: 'cooper_lt_btlight';
+    padding-left: 1vw;
+    padding-top: 10vw;
+    margin-bottom: 0;
 }
 
 h3,
 p {
     font-family: 'gilroylight';
-}
-
-h2 {
-    padding-top: 0px;
-}
-
-h3 {
+    padding-left: 1vw;
     padding-top: 0px;
 }
 
@@ -80,18 +88,6 @@ h4 {
     cursor: pointer;
 }
 
-h1 {
-    font-size: 20px;
-    color: white;
-    font-weight: 100;
-}
-
-h2 {
-    font-size: 90px;
-    color: #ffde73;
-    font-weight: 100;
-}
-
 #homeh2 {
     text-align: center;
 }
@@ -99,6 +95,15 @@ h2 {
 h3 {
     font-size: 30px;
     color: white;
+}
+
+h4 {
+    font-family: 'cooper_lt_btlight';
+    text-align: center;
+    font-size: 90px;
+    color: #ffde73;
+    font-weight: 100;
+
 }
 
 #homep {
@@ -148,5 +153,49 @@ input[type=text] {
 
 .sizer {
     padding-right: 50vw;
+    padding-left: 1vw;
 
+}
+
+.whitep {
+    background-color: white;
+}
+
+.cirlces {
+    display: flex;
+    justify-content: space-between;
+    border: 10px solid black;
+}
+
+.circles div {
+  width: 500px;
+  height: 500px;
+  background: red;
+}
+
+#circ1 {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-image: url("../img/grapeart.png");
+    background-size: cover;
+    background-color: #FCD597;
+}
+
+#circ2 {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-image: url("../img/wineart.png");
+    background-size: cover;
+    background-color: #FF9473;
+}
+
+#circ3 {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-image: url("../img/honeyeart.png");
+    background-size: cover;
+    background-color: #B3EAD9;
 }
