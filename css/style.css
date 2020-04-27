@@ -1,0 +1,152 @@
+body {
+    background-color: #ff8a54;
+}
+
+@font-face {
+    font-family: 'gilroylight';
+    src: url('fonts/gilroy-light.eot');
+    src: url('fonts/gilroy-light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/gilroy-light.woff2') format('woff2'),
+        url('fonts/gilroy-light.woff') format('woff'),
+        url('fonts/gilroy-light.ttf') format('truetype'),
+        url('fonts/gilroy-light.svg#gilroylight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cooper_lt_btlight';
+    src: url('fonts/cooperl.eot');
+    src: url('fonts/cooperl.eot?#iefix') format('embedded-opentype'),
+        url('fonts/cooperl.woff2') format('woff2'),
+        url('fonts/cooperl.woff') format('woff'),
+        url('fonts/cooperl.ttf') format('truetype'),
+        url('fonts/cooperl.svg#cooper_lt_btlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1,
+h2 {
+    font-family: 'cooper_lt_btlight';
+}
+
+h3,
+p {
+    font-family: 'gilroylight';
+}
+
+h2 {
+    padding-top: 0px;
+}
+
+h3 {
+    padding-top: 0px;
+}
+
+h4 {
+    font-family: 'cooper_lt_btlight';
+}
+
+
+
+.nav a {
+    font-family: 'gilroylight';
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav {
+    float: right;
+}
+
+.nav a.active {
+    text-decoration: underline;
+}
+
+.button {
+    background-color: #FFDE83;
+    border: none;
+    color: #ff8a54 !important;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 90px;
+    color: #ffde73;
+    font-weight: 100;
+}
+
+#homeh2 {
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    color: white;
+}
+
+#homep {
+    text-align: center;
+    padding: 0px 500px;
+    color: white;
+
+}
+
+#homefooter {
+    background-color: white;
+    bottom: 0px;
+}
+
+
+#block {
+    height: 300px;
+    background: linear-gradient(180deg, #ff8a54 50%, white 50%);
+    /* prepare #container to center #circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+#imgbox {
+    width: 250px;
+}
+
+#footimage {
+    max-width: 100%;
+    display: block;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+    font-family: 'cooper_lt_btlight';
+    background-color: #ff8a54;
+}
+
+.sizer {
+    padding-right: 50vw;
+
+}
