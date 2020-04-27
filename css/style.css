@@ -170,12 +170,12 @@ input[type=text] {
 .whitep {
     background-color: white;
 }
-
+``````
 .circle-container {
     display: flex;
     justify-content: space-between;
     width: 700px;
-    margin: 0 auto;
+    margin: 0 auto;`
     background-color: white;
 }
 
@@ -188,7 +188,7 @@ input[type=text] {
     background-color: #FCD597;
 }
 
-#circ2 {
+#circ2 {``
     border-radius: 50%;
     height: 150px;
     width: 150px;
