@@ -27,6 +27,8 @@ body {
     font-style: normal;
 }
 
+
+
 h1 {
     font-size: 20px;
     color: white;
@@ -115,7 +117,7 @@ h4 {
 
 #homefooter {
     background-color: white;
-    bottom: 0px;
+    margin-bottom: 0;
 }
 
 
@@ -140,6 +142,10 @@ h4 {
     display: block;
 }
 
+footer {
+    background-color: white;
+}
+
 input[type=text] {
     width: 100%;
     padding: 12px 20px;
@@ -149,6 +155,10 @@ input[type=text] {
     border-bottom: 2px solid black;
     font-family: 'cooper_lt_btlight';
     background-color: #ff8a54;
+}
+
+.contform {
+    font-family: 'cooper_lt_btlight';
 }
 
 .sizer {
@@ -161,16 +171,12 @@ input[type=text] {
     background-color: white;
 }
 
-.cirlces {
+.circle-container {
     display: flex;
     justify-content: space-between;
-    border: 10px solid black;
-}
-
-.circles div {
-  width: 500px;
-  height: 500px;
-  background: red;
+    width: 700px;
+    margin: 0 auto;
+    background-color: white;
 }
 
 #circ1 {
